@@ -5,7 +5,7 @@ import { useLoaderData } from "react-router-dom";
 const ProjectDetail = () => {
     const project = useLoaderData()
 
-    console.log(project);
+    // console.log(project);
 
 
     return (

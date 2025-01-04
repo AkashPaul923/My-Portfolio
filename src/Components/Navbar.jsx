@@ -1,10 +1,22 @@
-
+import { useNavigate } from "react-router-dom";
+import logo from "../assets/Image/logo.png"
 
 const Navbar = () => {
+    const navigate = useNavigate()
     const links = <>
-                    <li><a>Home</a></li>
-                    <li><a>About</a></li>
+                    <li><a onClick={() => goToSection("Banner-section")} className="hover:text-primaryBtn">Home</a></li>
+                    <li><a onClick={() => goToSection("about-section")} className="hover:text-primaryBtn">About Me</a></li>
+                    <li><a onClick={() => goToSection("skill-section")} className="hover:text-primaryBtn">Skills</a></li>
+                    <li><a onClick={() => goToSection("education-section")} className="hover:text-primaryBtn">Education</a></li>
+                    <li><a onClick={() => goToSection("project-section")} className="hover:text-primaryBtn">Projects</a></li>
+                    <li><a onClick={() => goToSection("contact-section")} className="hover:text-primaryBtn">Contact</a></li>
                 </>
+
+    const goToSection = (sectionId) => {
+        // Navigate to the Home Page and pass the section ID as state
+        navigate("/", { state: { scrollTo: sectionId } });
+    };
+
   return (
     <div className="">
         <div className="navbar bg-[#00000052] z-30 fixed backdrop-blur-md px-2 xl:px-10">
@@ -19,7 +31,10 @@ const Navbar = () => {
                         {links}
                     </ul>
                 </div>
-                <a className="btn btn-ghost text-xl">daisyUI</a>
+                <div className="flex items-center gap-3">
+                    <img src={logo} alt="logo" className="w-10" />
+                    <p className="text-xl md:text-2xl font-bold text-primaryBtn code-pro-font">AkashPaul.Dev</p>
+                </div>
             </div>
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal px-1">
@@ -27,7 +42,7 @@ const Navbar = () => {
                 </ul>
             </div>
             <div className="navbar-end">
-                <a className="btn">Button</a>
+            <a href="https://docs.google.com/document/d/1GBxDtdTlvlqIGOaBwhRg-nehAPDK8AIBWs2wdIr0CXI/edit?usp=sharing"  target="_blank" className="btn btn-sm btn-accent bg-primaryBtn border-none"> Resume</a>
             </div>
         </div>
     </div>

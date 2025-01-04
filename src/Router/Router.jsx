@@ -20,9 +20,9 @@ const router = createBrowserRouter([
           loader: async ({params}) => {
             const res = await fetch("/project.json")
             const data = await res.json()
-            console.log(data);
+            // console.log(data);
             const sData = data.find(d => d.id == params.id)
-            console.log(sData);
+            // console.log(sData);
             return sData
           }
         },

@@ -3,7 +3,7 @@ import aboutImg from "../assets/Image/developer-about.jpg"
 
 const AboutMe = () => {
     return (
-        <div className="bg-secondaryBg py-20">
+        <div id="about-section" className="bg-secondaryBg py-20">
             <h2 className="code-pro-font uppercase text-center font-bold text-primaryBtn text-3xl md:text-5xl mb-10">About Me</h2>
             <div className="max-w-screen-2xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-10 p-5">
                 <div>
