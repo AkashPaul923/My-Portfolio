@@ -1,14 +1,14 @@
 [
     {
       "id": "P1",
-      "projectName": "E-Commerce Platform",
-      "projectImg": "https://example.com/ecommerce-image.jpg",
+      "projectName": "Eco Adventure",
+      "projectImg": "https://i.ibb.co.com/1KzL9CJ/Eco-Adventure.png",
       "mainTechnologyStack": ["Tailwind CSS","React.js", "Express", "MongoDB", "JWT", "FireBase"],
-      "briefDescription": "A responsive e-commerce website where users can browse products, add them to a cart, and make purchases.",
-      "liveLink": "https://ecommerce-example.com",
+      "briefDescription": "The purpose of this eco-adventure website is to inspire and promote sustainable travel by showcasing diverse eco-friendly travel experiences such as mountain treks and ocean dives. It aims to educate users about eco-adventures, provide valuable insights, and connect them with experts for guidance. By offering personalized user engagement through profiles and curated content, the website encourages environmentally conscious travel and fosters a community passionate about exploring nature responsibly.",
+      "liveLink": "https://eco-adventure-by-akashpaul.surge.sh/",
       "githubLinks": {
-        "clientCodeLink": "https://github.com/username/ecommerce-client",
-        "serverCodeLink": "https://github.com/username/ecommerce-server"
+        "clientCodeLink": "https://github.com/AkashPaul923/Eco-Advebture-firebase",
+        "serverCodeLink": ""
       },
       "details": {
         "challengesFaced": [
@@ -17,13 +17,8 @@
           "Handling edge cases for product filtering and pagination."
         ],
         "currentLimitations": [
-          "The site lacks payment gateway integration.",
-          "Limited to desktop and mobile responsiveness without tablet optimization."
         ],
         "improvementsPlanned": [
-          "Adding a secure payment gateway like Stripe.",
-          "Implementing more robust testing with Jest and React Testing Library.",
-          "Optimizing for better performance on slower networks."
         ]
       }
     },
@@ -68,16 +63,17 @@
       },
       "details": {
         "challengesFaced": [
-          "Configuring Apollo Client with Next.js for server-side rendering.",
-          "Ensuring fast load times while fetching dynamic content.",
-          "Handling SEO optimizations with dynamic metadata."
+          "Integrating Firebase authentication with custom error messages.",
+          "Optimizing Tailwind CSS for dynamic component styling.",
+          "Handling edge cases for product filtering and pagination.",
+          "Implementing advanced search and filtering with MongoDB Atlas Search."
         ],
         "currentLimitations": [
           "Content updates require manual GraphQL mutations.",
           "Animations are basic and could be more interactive."
         ],
         "improvementsPlanned": [
-          "Integrating a CMS like Contentful for easier content updates.",
+          "Implementing advanced search and filtering with MongoDB Atlas Search.",
           "Enhancing animations using libraries like Framer Motion.",
           "Improving Lighthouse scores for performance and accessibility."
         ]
