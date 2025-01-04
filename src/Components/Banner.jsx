@@ -3,7 +3,7 @@ import developerImg from "../assets/Image/profile_pic.jpg"
 
 const Banner = () => {
     return (
-        <div className="max-w-screen-2xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-20 md:gap-6 px-5 py-20 lg:py-40">
+        <div className="max-w-screen-2xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-20 md:gap-6 px-5 py-28 lg:py-40">
             <div className="flex flex-col justify-center gap-6">
                 <p className="text-xl md:text-3xl">Hello It's Me </p>
                 <h1 className="text-3xl md:text-5xl text-primaryBtn font-bold code-pro-font">Akash Paul.</h1>

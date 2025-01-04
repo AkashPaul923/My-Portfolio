@@ -6,8 +6,8 @@ const Navbar = () => {
                     <li><a>About</a></li>
                 </>
   return (
-    <div className="bg-[#0000003d]">
-        <div className="navbar max-w-screen-2xl mx-auto ">
+    <div className="">
+        <div className="navbar bg-[#00000052] z-30 fixed backdrop-blur-md px-2 xl:px-10">
             <div className="navbar-start ">
                 <div className="dropdown">
                     <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -15,7 +15,7 @@ const Navbar = () => {
                             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h8m-8 6h16"/>
                         </svg>
                     </div>
-                    <ul tabIndex={0} className="menu menu-sm dropdown-content bg-[#0000003d] rounded-box z-[1] mt-3 w-52 p-2 shadow" >
+                    <ul tabIndex={0} className="menu menu-sm dropdown-content bg-[#000000e9] rounded-box z-[1] mt-3 w-52 p-2 shadow" >
                         {links}
                     </ul>
                 </div>

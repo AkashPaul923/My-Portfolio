@@ -1,0 +1,87 @@
+[
+    {
+      "id": "P1",
+      "projectName": "E-Commerce Platform",
+      "projectImg": "https://example.com/ecommerce-image.jpg",
+      "mainTechnologyStack": ["Tailwind CSS","React.js", "Express", "MongoDB", "JWT", "FireBase"],
+      "briefDescription": "A responsive e-commerce website where users can browse products, add them to a cart, and make purchases.",
+      "liveLink": "https://ecommerce-example.com",
+      "githubLinks": {
+        "clientCodeLink": "https://github.com/username/ecommerce-client",
+        "serverCodeLink": "https://github.com/username/ecommerce-server"
+      },
+      "details": {
+        "challengesFaced": [
+          "Integrating Firebase authentication with custom error messages.",
+          "Optimizing Tailwind CSS for dynamic component styling.",
+          "Handling edge cases for product filtering and pagination."
+        ],
+        "currentLimitations": [
+          "The site lacks payment gateway integration.",
+          "Limited to desktop and mobile responsiveness without tablet optimization."
+        ],
+        "improvementsPlanned": [
+          "Adding a secure payment gateway like Stripe.",
+          "Implementing more robust testing with Jest and React Testing Library.",
+          "Optimizing for better performance on slower networks."
+        ]
+      }
+    },
+    {
+      "id": "P2",
+      "projectName": "ElectroSavvy",
+      "projectImg": "https://i.ibb.co.com/qR23Z3Z/Electro-Savvy.png",
+      "mainTechnologyStack": ["Tailwind CSS","React.js", "Express", "MongoDB", "JWT", "FireBase"],
+      "briefDescription": "It's a service-sharing web application designed to provide users with a seamless experience for managing and sharing services. This platform allows users to perform key actions such as adding, updating, and deleting their own services, browsing services shared by others, booking services, and managing the statuses of booked services. My focus during development was on creating an intuitive and user-friendly interface to ensure smooth navigation and efficient service management for all users.",
+      "liveLink": "https://electrosavvy-57a30.web.app",
+      "githubLinks": {
+        "clientCodeLink": "https://github.com/AkashPaul923/ElectroSavvy-clint",
+        "serverCodeLink": "https://github.com/AkashPaul923/ElectroSavvy-server"
+      },
+      "details": {
+        "challengesFaced": [
+          "Structuring MongoDB schemas for nested comments efficiently.",
+          "Handling rate-limiting for API endpoints to prevent abuse.",
+          "Optimizing query performance for large datasets."
+        ],
+        "currentLimitations": [
+          "The search functionality is basic and does not support advanced filters.",
+          "No caching mechanism is implemented for frequent API requests."
+        ],
+        "improvementsPlanned": [
+          "Implementing advanced search and filtering with MongoDB Atlas Search.",
+          "Adding a caching layer using Redis to improve performance.",
+          "Expanding unit tests to cover edge cases and error scenarios."
+        ]
+      }
+    },
+    {
+      "id": "P3",
+      "projectName": "MovieMatrix",
+      "projectImg": "https://i.ibb.co.com/R4X6Qjt/Movie-Matrix.png",
+      "mainTechnologyStack": ["Tailwind CSS","React.js", "Express", "MongoDB", "FireBase"],
+      "briefDescription": "MovieMatrix is a user-friendly Movie Portal to simplify the process of exploring movies, viewing movie details, adding movies, and deleting movies while managing user favorites. It has a dynamic user interface, robust functionality, and seamless user experience.",
+      "liveLink": "https://moviematrix-851d2.web.app",
+      "githubLinks": {
+        "clientCodeLink": "https://github.com/AkashPaul923/MovieMatrix-Clint",
+        "serverCodeLink": "https://github.com/AkashPaul923/MovieMatrix-Server"
+      },
+      "details": {
+        "challengesFaced": [
+          "Configuring Apollo Client with Next.js for server-side rendering.",
+          "Ensuring fast load times while fetching dynamic content.",
+          "Handling SEO optimizations with dynamic metadata."
+        ],
+        "currentLimitations": [
+          "Content updates require manual GraphQL mutations.",
+          "Animations are basic and could be more interactive."
+        ],
+        "improvementsPlanned": [
+          "Integrating a CMS like Contentful for easier content updates.",
+          "Enhancing animations using libraries like Framer Motion.",
+          "Improving Lighthouse scores for performance and accessibility."
+        ]
+      }
+    }
+]
+  
