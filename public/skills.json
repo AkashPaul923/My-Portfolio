@@ -1,0 +1,33 @@
+[
+    {
+      "id": 1,
+      "skillName": "HTML",
+      "skillImage": "https://img.icons8.com/?size=100&id=20909&format=png&color=000000"
+    },
+    {
+      "id": 2,
+      "skillName": "CSS",
+      "skillImage": "https://img.icons8.com/?size=100&id=7gdY5qNXaKC0&format=png&color=000000"
+    },
+    {
+      "id": 3,
+      "skillName": "Tailwind CSS",
+      "skillImage": "https://img.icons8.com/?size=100&id=x7XMNGh2vdqA&format=png&color=000000"
+    },
+    {
+      "id": 4,
+      "skillName": "JavaScript",
+      "skillImage": "https://img.icons8.com/?size=100&id=108784&format=png&color=000000"
+    },
+    {
+      "id": 5,
+      "skillName": "React",
+      "skillImage": "https://img.icons8.com/?size=100&id=wPohyHO_qO1a&format=png&color=000000"
+    },
+    {
+      "id": 6,
+      "skillName": "FireBase",
+      "skillImage": "https://img.icons8.com/?size=100&id=62452&format=png&color=000000"
+    }
+  ]
+  
