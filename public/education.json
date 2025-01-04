@@ -1,0 +1,14 @@
+[
+    {
+      "id": 1,
+      "degreeName": "Bachelor of Science",
+      "major": "Computer Science and Engineering",
+      "year": {
+        "start": 2022,
+        "end": "Present"
+      },
+      "instituteName": "National University, Bangladesh",
+      "affiliatedCollege": "Institute of Science and Technology, Dhanmondi "
+    }
+  ]
+  

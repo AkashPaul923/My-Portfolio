@@ -6,7 +6,7 @@ const Banner = () => {
         <div className="max-w-screen-2xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-20 md:gap-6 px-5 py-20">
             <div className="flex flex-col justify-center gap-6">
                 <h1 className="text-2xl md:text-5xl">Hi, I am{' '}<br/>
-                    <span className="text-primaryBtn font-bold">
+                    <span className="text-primaryBtn font-bold code-pro-font">
                         <Typewriter
                             words={['Akash Paul.', 'Frontend Developer.']}
                             loop={false}
