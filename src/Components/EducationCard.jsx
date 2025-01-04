@@ -6,7 +6,7 @@ const EducationCard = ({education}) => {
 
 
     return (
-        <div className="card bg-secondaryBg shadow-lg shadow-primaryBtn p-10 rounded-lg border gap-4">
+        <div className="card bg-primaryBg shadow-lg shadow-primaryBtn p-10 rounded-lg border gap-4">
             <div className="flex items-center gap-3 mb-4 text-2xl md:text-3xl">
                 <FaUniversity className="text-gray-100 " />
                 <h3 className="font-bold">{degreeName}</h3>

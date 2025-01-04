@@ -3,12 +3,14 @@ import developerImg from "../assets/Image/profile_pic.jpg"
 
 const Banner = () => {
     return (
-        <div className="max-w-screen-2xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-20 md:gap-6 px-5 py-20">
+        <div className="max-w-screen-2xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-20 md:gap-6 px-5 py-20 lg:py-40">
             <div className="flex flex-col justify-center gap-6">
-                <h1 className="text-2xl md:text-5xl">Hi, I am{' '}<br/>
+                <p className="text-xl md:text-3xl">Hello It's Me </p>
+                <h1 className="text-3xl md:text-5xl text-primaryBtn font-bold code-pro-font">Akash Paul.</h1>
+                <h1 className="text-2xl md:text-4xl">I am a{' '}
                     <span className="text-primaryBtn font-bold code-pro-font">
                         <Typewriter
-                            words={['Akash Paul.', 'Frontend Developer.']}
+                            words={['Frontend Developer.']}
                             loop={false}
                             cursor
                             cursorStyle='_'
@@ -18,7 +20,7 @@ const Banner = () => {
                         />
                     </span>
                 </h1>
-                <p>Passionate MERN stack developer dedicated to building dynamic, responsive, and user-centric web applications. Proficient in crafting seamless front-end interfaces, robust back-end systems, and scalable database solutions, delivering innovative digital experiences that align with modern web development standards and client needs.</p>
+                <p>Passionate Web Developer dedicated to building dynamic, responsive, and user-centric web applications. Proficient in crafting seamless and intuitive interfaces, delivering innovative digital experiences that align with modern web development standards and client needs.</p>
                 <div className="flex gap-5">
                     <a href="https://www.linkedin.com/in/akash-paul-257894318/" target="_blank"><img src="https://img.icons8.com/?size=100&id=kBCrQMzpQDLQ&format=png&color=000000" alt="linkedin" className="w-12" /></a>
                     <a href="https://github.com/AkashPaul923" target="_blank"><img src="https://img.icons8.com/?size=100&id=efFfwotdkiU5&format=png&color=000000" alt="github" className="w-12" /></a>
