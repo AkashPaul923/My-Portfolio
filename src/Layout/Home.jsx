@@ -21,6 +21,7 @@ const Home = () => {
             smooth: "easeInOutQuart",
             });
         }
+        
     }, [location]);
 
 
