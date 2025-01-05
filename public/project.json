@@ -3,7 +3,7 @@
       "id": "P1",
       "projectName": "Eco Adventure",
       "projectImg": "https://i.ibb.co.com/1KzL9CJ/Eco-Adventure.png",
-      "mainTechnologyStack": ["Tailwind CSS","React.js", "Express", "MongoDB", "JWT", "FireBase"],
+      "mainTechnologyStack": ["Tailwind CSS","React.js","FireBase"],
       "briefDescription": "The purpose of this eco-adventure website is to inspire and promote sustainable travel by showcasing diverse eco-friendly travel experiences such as mountain treks and ocean dives. It aims to educate users about eco-adventures, provide valuable insights, and connect them with experts for guidance. By offering personalized user engagement through profiles and curated content, the website encourages environmentally conscious travel and fosters a community passionate about exploring nature responsibly.",
       "liveLink": "https://eco-adventure-by-akashpaul.surge.sh/",
       "githubLinks": {
