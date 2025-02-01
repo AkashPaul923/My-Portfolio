@@ -27,7 +27,7 @@ const Banner = () => {
                     <a href="https://www.facebook.com/akash.paul.664216" target="_blank"><img src="https://img.icons8.com/?size=100&id=z657ovoGgS2o&format=png&color=000000" alt="facebook" className="w-12" /></a>
                 </div>
                 <div>
-                    <a href="https://docs.google.com/document/d/1GBxDtdTlvlqIGOaBwhRg-nehAPDK8AIBWs2wdIr0CXI/edit?usp=sharing"  target="_blank" className="btn btn-accent bg-primaryBtn border-none">Download Resume</a>
+                    <a href="https://drive.google.com/file/d/1EULQQ2yoDMufb4qykKpl6f0UBTque2xH/view?usp=sharing"  target="_blank" className="btn btn-accent bg-primaryBtn border-none">Download Resume</a>
                 </div>
             </div>
             <div className="flex justify-center items-center">

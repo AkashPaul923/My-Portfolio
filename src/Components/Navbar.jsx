@@ -42,7 +42,7 @@ const Navbar = () => {
                 </ul>
             </div>
             <div className="navbar-end">
-            <a href="https://docs.google.com/document/d/1GBxDtdTlvlqIGOaBwhRg-nehAPDK8AIBWs2wdIr0CXI/edit?usp=sharing"  target="_blank" className="btn btn-sm btn-accent bg-primaryBtn border-none"> Resume</a>
+            <a href="https://drive.google.com/file/d/1EULQQ2yoDMufb4qykKpl6f0UBTque2xH/view?usp=sharing"  target="_blank" className="btn btn-sm btn-accent bg-primaryBtn border-none"> Resume</a>
             </div>
         </div>
     </div>
