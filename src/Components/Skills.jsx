@@ -14,9 +14,9 @@ const Skills = () => {
     return (
         <div id="skill-section" className="max-w-screen-2xl mx-auto py-20 px-5">
             <h2 className="code-pro-font uppercase text-center font-bold text-primaryBtn text-3xl md:text-5xl mb-10">Skills</h2>
-            <Marquee autoFill={true} loop={0} pauseOnHover={true} className="flex items-center gap-6 ">
+            <Marquee play={true} gradientColor="#151925" gradient={true} gradientWidth={200} loop={0} pauseOnHover={true} speed={30} className="flex items-center gap-6 ">
                 {
-                    skills.map(skill => <div key={skill.id} className="hover:bg-secondaryBg rounded-xl p-3 shadow-lg shadow-primaryBtn">
+                    skills.map(skill => <div key={skill.id} className="hover:bg-secondaryBg rounded-xl p-3 shadow-lg shadow-primaryBtn mr-14 lg:mr-[120px] my-6">
                             <img src={skill.skillImage} alt={skill.skillName} className="w-10 md:w-14" />
                     </div>)
                 }
