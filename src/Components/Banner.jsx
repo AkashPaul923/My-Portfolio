@@ -10,7 +10,7 @@ const Banner = () => {
                 <h1 className="text-2xl md:text-4xl">I am a{' '}
                     <span className="text-primaryBtn font-bold code-pro-font">
                         <Typewriter
-                            words={['Frontend Developer.']}
+                            words={['Frontend Developer.', "React Developer.", "Tech Enthusiast."]}
                             loop={false}
                             cursor
                             cursorStyle='_'
