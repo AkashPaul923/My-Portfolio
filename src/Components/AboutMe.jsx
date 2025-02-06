@@ -7,7 +7,7 @@ const AboutMe = () => {
             <h2 className="code-pro-font uppercase text-center font-bold text-primaryBtn text-3xl md:text-5xl mb-10">About Me</h2>
             <div className="max-w-screen-2xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-10 p-5">
                 <div>
-                    <img src={aboutImg} alt="developer about image" className="w-full max-w-sm  rounded-lg shadow-lg shadow-primaryBtn" />
+                    <img src={aboutImg} alt="developer about image" className="w-full max-w-sm mx-auto lg:mx-0  rounded-lg shadow-lg shadow-primaryBtn" />
                 </div>
                 <div className="flex flex-col justify-center gap-6">
                     <p className="text-xl md:text-2xl font-medium">Curious About Me? Here's a Glimpse!</p>

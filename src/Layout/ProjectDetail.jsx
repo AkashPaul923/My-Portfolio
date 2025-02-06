@@ -48,8 +48,7 @@ const ProjectDetail = () => {
                         {/* Links */}
                         <div className="flex flex-col gap-2">
                             <a href={project.liveLink} target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-primaryBtn hover:underline"><FaExternalLinkAlt /> Live Link</a>
-                            <a  href={project.githubLinks.clientCodeLink}  target="_blank" rel="noopener noreferrer"  className="flex items-center gap-2 text-primaryBtn hover:underline"><FaGithub /> Client Side Code</a>
-                            <a  href={project.githubLinks.serverCodeLink}  target="_blank"  rel="noopener noreferrer" className="flex items-center gap-2 text-primaryBtn hover:underline"><FaGithub /> Server Side Code</a>
+                            <a  href={project.githubLinks.clientCodeLink}  target="_blank" rel="noopener noreferrer"  className="flex items-center gap-2 text-primaryBtn hover:underline"><FaGithub /> Github Repository Link</a>
                         </div>
                     </div>
                 </div>
